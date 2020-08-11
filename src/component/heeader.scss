@@ -1,0 +1,22 @@
+.header-container {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+
+        li {
+            a {
+                cursor: pointer;
+                padding: 10px;
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #000;
+                font-weight: 500;
+            }
+        }
+    }
+}
